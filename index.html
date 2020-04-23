@@ -1,23 +1,25 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="scss/style.css">
 </head>
+
 <body>
     <div class="container">
         <header>
             <div class="header-top">
-                <div class="header-top-logo"></div>
+                <div class="header-top-logo"><a href="#"><img src="img/logo.png.png" alt="logo"></a></div>
                 <nav class="header-top-menu">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
+                    <ul class="header-top-menu-list">
+                        <li class="header-top-menu-item"><a href="#">Home</a></li>
+                        <li class="header-top-menu-item"><a href="#">Services</a></li>
+                        <li class="header-top-menu-item"><a href="#">Portfolio</a></li>
+                        <li class="header-top-menu-item"><a href="#">About</a></li>
+                        <li class="header-top-menu-item"><a href="#">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -27,35 +29,109 @@
                 <button class="header-wrapper-btn">Tell Me More</button>
             </div>
         </header>
-        <section class="Services">
-            <h1 class="services-title"></h1>
-            <span class="services-subtitle"></span>
-            <div class="services-block">
-                <img src="" alt="" class="services-block-pic"><span class="services-block-title"></span>
-                <p class="services-block-txt"></p>
-            </div>
-            <div class="services-block">
-                <img src="" alt="" class="services-block-pic"><span class="services-block-title"></span>
-                <p class="services-block-txt"></p>
-            </div>
-            <div class="services-block">
-                <img src="" alt="" class="services-block-pic"><span class="services-block-title"></span>
-                <p class="services-block-txt"></p>
+        <section class="services">
+            <h2 class="services-title">Services</h2>
+            <span class="services-subtitle">Proin iaculis purus consequat sem cure. </span>
+            <div class="services-wrapper">
+                <div class="services-block">
+                    <img src="img/icon1.png.png" alt="icon" class="services-block-pic"><span
+                        class="services-block-title">E-Commerce</span>
+                    <p class="services-block-txt">Proin iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus posuere odio in tincidunt.</p>
+                </div>
+                <div class="services-block">
+                    <img src="img/icon2.png.png" alt="icon" class="services-block-pic"><span
+                        class="services-block-title">Responsive Web</span>
+                    <p class="services-block-txt">Proin iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus posuere odio in tincidunt.</p>
+                </div>
+                <div class="services-block">
+                    <img src="img/icon3.png.png" alt="icon" class="services-block-pic"><span
+                        class="services-block-title">Web Security</span>
+                    <p class="services-block-txt">Proin iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus posuere odio in tincidunt.</p>
+                </div>
             </div>
         </section>
         <section class="portfolio">
-            <h1 class="portfolio-titile"></h1>
-            <span class="portfolio-subtitle"></span>
+            <h2 class="portfolio-titile">Our portfolio</h2>
+            <span class="portfolio-subtitle">Proin iaculis purus consequat sem cure. </span>
             <div class="portfolio-wrapper">
-                <div class="portfolio-block"><a href="" class="portfolio-block-link"><img src="" alt=""></a></div>
-                <div class="portfolio-block"><a href="" class="portfolio-block-link"><img src="" alt=""></a></div>
-                <div class="portfolio-block"><a href="" class="portfolio-block-link"><img src="" alt=""></a></div>
+                <div class="portfolio-block"><a href="" class="portfolio-block-link"><img src="img/img1.jpg.png"
+                            alt="pic1"></a></div>
+                <div class="portfolio-block"><a href="" class="portfolio-block-link"><img src="img/img2.jpg.png"
+                            alt="pic2"></a></div>
+                <div class="portfolio-block"><a href="" class="portfolio-block-link"><img src="img/img3.jpg.png"
+                            alt="pic3"></a></div>
             </div>
         </section>
-        <section></section>
+        <section class="about">
+            <h2 class="about-title">About Us</h2>
+            <span class="about-subtitle">Proin iaculis purus consequat sem cure. </span>
+            <div class="about-wrapper">
+                <div class="about-block first-grid">
+                    <div class="about-block-inner">
+                        <article>
+                            <time>July 2010</time>
+                            <h3>Our Humble Beginnings</h3>Proin iaculis purus consequat sem cure
+                            digni ssim. Donec porttitora entum suscipit
+                            aenean rhoncus posuere odio in tincidunt. Proin
+                            iaculis purus consequat sem cure digni
+                            ssim. Donec porttitora entum suscipit.
+                        </article>
+
+                    </div>
+                    <img src="img/about1.jpg.png" alt="" widht="180px" height="180px" class="about-block-pic">
+                </div>
+                <div class="about-block second-grid">
+                    <img src="img/about2.jpg.png" alt="" widht="180px" height="180px" class="about-block-pic">
+                    <div class="about-block-inner">
+
+                        <article>
+                            <time>January 2011</time>
+                            <h3>Facing Startup Battles</h3>Proin iaculis purus consequat sem cure
+                            digni ssim. Donec porttitora entum suscipit
+                            aenean rhoncus posuere odio in tincidunt. Proin
+                            iaculis purus consequat sem cure digni
+                            ssim. Donec porttitora entum suscipit.
+                        </article>
+                    </div>
+                </div>
+                <div class="about-block third-grid">
+                    <div class="about-block-inner">
+                        <article>
+                            <time>December 2012</time>
+                            <h3>Enter The Dark Days</h3>Proin iaculis purus consequat sem cure
+                            digni ssim. Donec porttitora entum suscipit
+                            aenean rhoncus posuere odio in tincidunt. Proin
+                            iaculis purus consequat sem cure digni
+                            ssim. Donec porttitora entum suscipit.
+                        </article>
+                    </div>
+                    <img src="img/about3.jpg.png" alt="" widht="180px" height="180px" class="about-block-pic">
+                </div>
+                <div class="about-block fourth-grid">
+                    <img src="img/about4.jpg.png" alt="" widht="180px" height="180px" class="about-block-pic">
+                    <div class="about-block-inner">
+                        <article>
+                            <time>february 2014</time>
+                            <h3>Our Triumph</h3>Proin iaculis purus consequat sem cure
+                            digni ssim. Donec porttitora entum suscipit
+                            aenean rhoncus posuere odio in tincidunt. Proin
+                            iaculis purus consequat sem cure digni
+                            ssim. Donec porttitora entum suscipit.
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
         <footer>
             <span class="footer-txt">© Copyright 2014 FreebiesXpress.com</span>
         </footer>
     </div>
 </body>
+
 </html>
